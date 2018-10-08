@@ -71,7 +71,8 @@ class Mgt_CloudfrontInvalidation_Block_Page_Html_Head extends Mage_Page_Block_Ht
     
     protected function _getFileModificationTimeFromUrl($url)
     {
-        $file = Mage::getBaseDir() . parse_url($url, PHP_URL_PATH);
+        $newPath = str_replace("store/","",parse_url($url, PHP_URL_PATH));
+        $file = Mage::getBaseDir() . $newPath;
         return filemtime($file);
     }
 }
