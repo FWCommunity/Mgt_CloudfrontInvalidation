@@ -1,0 +1,5 @@
+htdocs/app/code/community/Mgt/CloudfrontInvalidation/ app/code/community/Mgt/CloudfrontInvalidation/
+htdocs/app/code/local/Mgt/Base/ app/code/local/Mgt/Base/ app/code/local/Mgt/Base/ app/code/local/Mgt/Base/
+htdocs/app/design/adminhtml/default/default/layout/mgt_cloudfront_invalidation.xml app/design/adminhtml/default/default/layout/mgt_cloudfront_invalidation.xml
+htdocs/app/design/adminhtml/default/default/template/mgt_cloudfront_invalidation/invalidate.phtml app/design/adminhtml/default/default/template/mgt_cloudfront_invalidation/invalidate.phtml
+htdocs/app/etc/modules/Mgt_CloudfrontInvalidation.xml app/etc/modules/Mgt_CloudfrontInvalidation.xml
